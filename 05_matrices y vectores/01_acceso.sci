@@ -1,0 +1,14 @@
+disp("--- Ejemplo 1: definir m ---");
+m=[1 2 3;4 5 6];
+disp(m);
+disp("--- Ejemplo 2: m(2,3) ---");
+disp(m(2,3));
+disp("--- Ejemplo 3: m(2,3)=23 ---");
+m(2,3)=23;
+disp(m);
+disp("--- Ejemplo 4: m(2,:) ---");
+disp(m(2,:));
+disp("--- Ejemplo 5: m(:,3) ---");
+disp(m(:,3));
+disp("--- Ejemplo 6: m'' ---");
+disp(m');
